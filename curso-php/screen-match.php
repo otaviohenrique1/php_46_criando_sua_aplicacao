@@ -56,4 +56,30 @@ $genero = match($nomeFilme) {
 };
 
 echo "O gênero do filme é: $genero" .  PHP_EOL;
-echo $argc;
+echo $argc . PHP_EOL;
+
+$filme = [
+  "nome" => "Thor: Ragnarok",
+  "ano" => 2021,
+  "nota" => 7.8,
+  "genero" => "super-herói"
+];
+
+echo $filme['nome'] . PHP_EOL;
+
+// $notasParaOFilme = [
+//   10, 8, 9, 7.5, 5, 6.8
+// ];
+
+// $notasParaOFilme2 = array(
+//   10, 8, 9, 7.5, 5, 6.8
+// );
+
+// $a = array(
+//   0 => "a",
+//   1 => "b",
+//   2 => "c",
+//   3 => "d",
+//   4 => "e",
+//   5 => "f",
+// );
