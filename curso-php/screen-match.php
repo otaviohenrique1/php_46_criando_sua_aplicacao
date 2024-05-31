@@ -83,3 +83,13 @@ echo $filme['nome'] . PHP_EOL;
 //   4 => "e",
 //   5 => "f",
 // );
+
+$notas = [];
+
+for ($i=1; $i < $argc; $i++) { 
+  $notas[] = (float) $argv[$i];
+}
+
+var_dump($notas);
+
+$somaDeNotas = 0;
