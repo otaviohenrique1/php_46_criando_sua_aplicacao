@@ -93,3 +93,9 @@ for ($i=1; $i < $argc; $i++) {
 var_dump($notas);
 
 $somaDeNotas = 0;
+// foreach ($notas as $nota) { 
+//   $somaDeNotas += $nota;
+// }
+$notaFilme = array_sum($notas) / $quantidadeDeNotas;
+
+echo $notaFilme . PHP_EOL;
